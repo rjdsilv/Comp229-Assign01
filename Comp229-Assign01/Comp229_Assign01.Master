@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Comp229_Assign01.master.cs" Inherits="Comp229_Assign01.Comp229_Assign01" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>.:: da Silva, Rodrigo's Portifolio ::.</title>
+    <asp:ContentPlaceHolder ID="headContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmPorifolioSite" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="bodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
