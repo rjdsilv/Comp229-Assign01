@@ -1,5 +1,30 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Comp229_Assign01.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="Comp229_Assign01.HomePage" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="headContent" runat="server">
+﻿<%@ Page Title="Portifolio.Me - Home" Language="C#" MasterPageFile="~/Comp229_Assign01.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="Comp229_Assign01.HomePage" %>
+<asp:Content ID="homePageHead" ContentPlaceHolderID="headContent" runat="server">
+    <link rel="stylesheet" href="css/HomePage.css" />
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="bodyContent" runat="server">
+<asp:Content ID="homePageBody" ContentPlaceHolderID="bodyContent" runat="server">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="HomePage.aspx">
+                <img alt="Brand" src="~/images/logo.png" runat="server">
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <ul>
+                <li><a href="AboutMe.aspx">About Me</a></li>
+                <li><a href="ContactMe.aspx">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Portifolio.Me</h1>
+        <p>
+            Your personal portifolio website
+        </p>
+    </div>
+    <footer class="footer">
+        <div class="footer-text">
+            <span>Created by Rodrigo Januario da Silva</span>
+        </div>
+    </footer>
 </asp:Content>
