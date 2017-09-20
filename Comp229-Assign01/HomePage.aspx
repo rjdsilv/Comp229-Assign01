@@ -3,21 +3,6 @@
     <link rel="stylesheet" href="css/HomePage.css" />
 </asp:Content>
 <asp:Content ID="homePageBody" ContentPlaceHolderID="bodyContent" runat="server">
-    <%-- The navigation bar for the home page. --%>
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <a href="HomePage.aspx">
-                <img alt="Brand" src="~/images/logo.png" runat="server">
-            </a>
-        </div>
-        <div class="navbar-menu">
-            <ul>
-                <li><a href="AboutMe.aspx">About Me</a></li>
-                <li><a href="ContactMe.aspx">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-
     <%-- The Hero Image. Thanks to www.pexels.com --%>
     <div class="jumbotron">
         <h1>Portifolio.Me</h1>

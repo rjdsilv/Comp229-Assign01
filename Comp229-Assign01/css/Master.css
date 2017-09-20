@@ -5,3 +5,35 @@ body {
     margin: 0;
     font-family: Calibri;
 }
+/* Setting up the navbar color schema. */
+.navbar {
+    background-color: #f5f5f5;
+    margin-bottom: 0;
+}
+
+/* Setting up the brand logo properties. Logo and other menu stuff floating to have a correct layout. */
+.navbar-brand {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Setting up the navigation bar menu properties. */
+.navbar-menu {
+    float: left;
+}
+
+.navbar-menu ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.navbar-menu ul li a {
+    padding: 10px;
+}
+
+.navbar-menu ul li a:hover {
+    background-color: #337ab7;
+    color: white;
+    text-decoration: none;
+}
