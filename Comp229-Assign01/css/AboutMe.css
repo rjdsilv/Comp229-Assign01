@@ -1,0 +1,37 @@
+﻿@import url("Master.css");
+
+/* Determines the content properties. */
+.content {
+    margin: 0;
+    width: 100%;
+}
+
+/* Determines the personalInfo properties. */
+.personalInfo {
+    min-height: 177px;
+    height: 177px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.personalPhoto {
+    height: 175px;
+    width: 139px;
+    float: left;
+}
+
+.personalPhoto img {
+    height: 175px;
+    width: 139px;
+}
+
+.personalTagline {
+    float: left;
+    padding: 10px;
+}
+
+.personalTagline p {
+    margin-top: auto;
+    margin-bottom: auto;
+}

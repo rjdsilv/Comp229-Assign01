@@ -65,11 +65,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutMe.aspx" />
+    <Content Include="css\AboutMe.css" />
     <Content Include="css\HomePage.css" />
     <Content Include="css\Master.css" />
     <Content Include="HomePage.aspx" />
     <Content Include="images\heroImage.jpeg" />
     <Content Include="images\logo.png" />
+    <Content Include="images\myself.jpg" />
     <Content Include="packages.config" />
     <Content Include="Comp229_Assign01.Master" />
     <None Include="Web.Debug.config">
@@ -84,6 +87,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutMe.aspx.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutMe.aspx.designer.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Comp229_Assign01.Master.cs">
       <DependentUpon>Comp229_Assign01.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
