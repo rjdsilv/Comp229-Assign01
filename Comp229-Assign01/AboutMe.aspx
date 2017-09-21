@@ -9,9 +9,9 @@
                 <img alt="Personal Photo" src="images/myself.jpg" />
             </div>
             <div class="personalTagline">
-                <p>
-                    Here it goes my mission statement.
-                </p>
+                <span>
+                    Building sofware to make people life easier, increase productivity and overall performance.
+                </span>
             </div>
         </div>
     </div>
