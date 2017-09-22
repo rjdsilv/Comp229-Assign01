@@ -10,7 +10,7 @@
             </div>
             <div class="personalTagline">
                 <span>
-                    Building sofware to make people life easier, increase productivity and overall performance.
+                    Building sofware to make life easier, increase productivity and overall performance.
                 </span>
             </div>
             <div class="bioSection">

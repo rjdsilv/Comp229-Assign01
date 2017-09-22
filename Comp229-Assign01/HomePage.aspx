@@ -14,7 +14,7 @@
     <%-- The home page footer --%>
     <footer class="footer">
         <div class="footer-text">
-                <span>Created by Rodrigo Januario da Silva</span>
+            <span>Created by Rodrigo Januario da Silva</span>
         </div>
     </footer>
 </asp:Content>
