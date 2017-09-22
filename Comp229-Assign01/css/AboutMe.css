@@ -70,18 +70,23 @@
     font-size: 18px;
 }
 
+/* Formating the position */
 .formerPosition {
     border-bottom: 1px solid #e0e0e0;
     padding: 15px 25px;
+    color: #555555;
 }
 
+/* Formating the position header */
 .formerPosition .formerPositionHeader {
-    font-size: 22px;
     font-weight: bolder;
     width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .formerPosition .formerPositionName {
+    font-size: 20px;
     width: 50%;
     float: left;
 }
@@ -92,6 +97,7 @@
     text-align: right
 }
 
+/* Formating the position responsabilities */
 .formerPosition .formerPositionResponsabilities {
     padding: 10px 0px;
     clear: both;
