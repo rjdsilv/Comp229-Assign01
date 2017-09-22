@@ -13,6 +13,62 @@
                     Building sofware to make people life easier, increase productivity and overall performance.
                 </span>
             </div>
+            <div class="bioSection">
+                Here it goes my bio section
+            </div>
+            <div class="formerPosition">
+                <div class="formerPositionHeader">
+                    <div class="formerPositionName">
+                        Position 1 Name
+                    </div>
+                    <div class="formerPositionDate">
+                        Jan-2000 to Present
+                    </div>
+                </div>
+                <div class="formerPositionResponsabilities">
+                    <ul>
+                        <li>Responsability 1</li>
+                        <li>Responsability 2</li>
+                        <li>Responsability 3</li>
+                        <li>Responsability 4</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="formerPosition">
+                <div class="formerPositionHeader">
+                    <div class="formerPositionName">
+                        Position 2 Name
+                    </div>
+                    <div class="formerPositionDate">
+                        Jan-1999 to Jan-2000
+                    </div>
+                </div>
+                <div class="formerPositionResponsabilities">
+                    <ul>
+                        <li>Responsability 1</li>
+                        <li>Responsability 2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="formerPosition">
+                <div class="formerPositionHeader">
+                    <div class="formerPositionName">
+                        Position 4 Name
+                    </div>
+                    <div class="formerPositionDate">
+                        Jan-1998 to Jan-1999
+                    </div>
+                </div>
+                <div class="formerPositionResponsabilities">
+                    <ul>
+                        <li>Responsability 1</li>
+                        <li>Responsability 2</li>
+                        <li>Responsability 3</li>
+                        <li>Responsability 4</li>
+                        <li>Responsability 5</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </asp:Content>

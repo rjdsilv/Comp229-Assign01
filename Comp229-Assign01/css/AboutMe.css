@@ -30,13 +30,69 @@
 /* Centering the text content */
 .personalTagline {
     height: 175px;
-    line-height: 175px;
     text-align: center;
     background-color: #e5e5e5;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+/* Quering media in order to fix the site for responsiveness. */
+@media only screen and (max-width: 1280px) {
+    .personalTagline {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .personalTagline {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 }
 
 .personalTagline span {
     color: #337ab7;
     font-size: 28px;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 535px) {
+    .personalTagline span {
+        font-size: 26px;
+    }
+}
+
+/* Formating the Bio Section. */
+.bioSection {
+    padding: 15px 25px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 18px;
+}
+
+.formerPosition {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 25px;
+}
+
+.formerPosition .formerPositionHeader {
+    font-size: 22px;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.formerPosition .formerPositionName {
+    width: 50%;
+    float: left;
+}
+
+.formerPosition .formerPositionDate {
+    width: 50%;
+    float: left;
+    text-align: right
+}
+
+.formerPosition .formerPositionResponsabilities {
+    padding: 10px 0px;
+    clear: both;
 }
