@@ -6,8 +6,13 @@
     <%-- The Background Image. Thanks to http://www.wallpaperup.com --%>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-3">My name is Rodrigo</h1>
-            <p class="lead">I am a software engineer. My mission is to build reliable software to make people life easier, increase productivity and overall performance.</p>
+            <div class="my-logo">
+                <a href="HomePage.aspx"><img alt="Me.Logo" src="images/Logo.png" /></a>
+            </div>
+            <div class="my-mission">
+                <h1 class="display-3">My name is Rodrigo</h1>
+                <p class="lead">I am a software engineer. My mission is to build reliable software to make people life easier, increase productivity and overall performance.</p>
+            </div>
         </div>
     </div>
 

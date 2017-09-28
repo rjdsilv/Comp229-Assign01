@@ -10,6 +10,21 @@
     margin-top: 20px;
 }
 
+.my-logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 34px;
+    left: 16px;
+    float: left;
+}
+
+@media screen and (max-width: 765px) {
+    .my-logo {
+        top: 15px;
+    }
+}
+
 /* Footer definition css */
 .footer {
     position: absolute;
