@@ -5,8 +5,8 @@
 .jumbotron {
     height: 250px;
     text-align: center;
-    color: #454545;
-    background-color: rgba(255, 255, 255, 0.93);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.80);
     margin-top: 20px;
 }
 
@@ -16,8 +16,8 @@
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.93);
-    color: #454545;
+    background-color: rgba(0, 0, 0, 0.90);
+    color: #fff;
     text-align: center;
 }
 
