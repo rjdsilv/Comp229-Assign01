@@ -27,14 +27,14 @@
 
             <asp:ContentPlaceHolder ID="bodyContent" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
 
-        <%-- The home page footer --%>
-        <footer class="footer">
-            <div class="footer-text">
-                <span>Created by Rodrigo Januario da Silva</span>
-            </div>
-        </footer>
+            <%-- The home page footer --%>
+            <footer class="footer">
+                <div class="footer-text">
+                    <span>Created by Rodrigo Januario da Silva</span>
+                </div>
+            </footer>
+        </div>
     </form>
     <!-- Latest compiled and minified JavaScript for JQuery. Required by Bootstrap. -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
