@@ -70,9 +70,7 @@
     <Content Include="css\HomePage.css" />
     <Content Include="css\Master.css" />
     <Content Include="HomePage.aspx" />
-    <Content Include="images\heroImage.jpeg" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\myself.jpg" />
+    <Content Include="images\PortifolioBg.jpg" />
     <Content Include="packages.config" />
     <Content Include="Comp229_Assign01.Master" />
     <None Include="Web.Debug.config">

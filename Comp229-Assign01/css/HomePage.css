@@ -3,10 +3,11 @@
 /* Image from: www.pexels.com */
 /* Some jumbotrom css override. */
 .jumbotron {
-    background-image: url("../images/heroImage.jpeg");
     height: 250px;
     text-align: center;
-    color: white;
+    color: #454545;
+    background-color: rgba(255, 255, 255, 0.93);
+    margin-top: 20px;
 }
 
 /* Footer definition css */
@@ -15,8 +16,9 @@
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #710a80;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.93);
+    color: #454545;
+    text-align: center;
 }
 
 .footer-text {

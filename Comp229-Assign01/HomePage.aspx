@@ -3,12 +3,12 @@
     <link rel="stylesheet" href="css/HomePage.css" />
 </asp:Content>
 <asp:Content ID="homePageBody" ContentPlaceHolderID="bodyContent" runat="server">
-    <%-- The Hero Image. Thanks to www.pexels.com --%>
-    <div class="jumbotron">
-        <h1>Portifolio.Me</h1>
-        <p>
-            Your personal portifolio website
-        </p>
+    <%-- The Background Image. Thanks to http://www.wallpaperup.com --%>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">My name is Rodrigo</h1>
+            <p class="lead">I am a software engineer. My mission is to build reliable software to make people life easier, increase productivity and overall performance.</p>
+        </div>
     </div>
 
     <%-- The home page footer --%>

@@ -4,4 +4,12 @@ body {
     height: 100%;
     margin: 0;
     font-family: Calibri;
+
+    /* Setting properties for the background to be responsive*/
+    background-image: url(../images/PortifolioBg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
 }
