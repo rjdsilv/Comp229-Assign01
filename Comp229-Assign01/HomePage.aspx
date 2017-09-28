@@ -4,22 +4,15 @@
 </asp:Content>
 <asp:Content ID="homePageBody" ContentPlaceHolderID="bodyContent" runat="server">
     <%-- The Background Image. Thanks to http://www.wallpaperup.com --%>
-    <div class="container">
-        <div class="jumbotron">
-            <div class="my-logo">
-                <a href="HomePage.aspx"><img alt="Me.Logo" src="images/Logo.png" /></a>
-            </div>
-            <div class="my-mission">
-                <h1 class="display-3">My name is Rodrigo</h1>
-                <p class="lead">I am a software engineer. My mission is to build reliable software to make people life easier, increase productivity and overall performance.</p>
-            </div>
+    <a href="AboutMe.aspx">
+        <div class="my-column col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+            <h1>About me</h1>
         </div>
-    </div>
+    </a>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
 
-    <%-- The home page footer --%>
-    <footer class="footer">
-        <div class="footer-text">
-            <span>Created by Rodrigo Januario da Silva</span>
-        </div>
-    </footer>
+    </div>
+    <div class="my-column col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+        <h1>Contact me</h1>
+    </div>
 </asp:Content>
