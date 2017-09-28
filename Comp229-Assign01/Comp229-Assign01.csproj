@@ -71,6 +71,7 @@
     <Content Include="css\Master.css" />
     <Content Include="HomePage.aspx" />
     <Content Include="images\Logo.png" />
+    <Content Include="images\MySelf.png" />
     <Content Include="images\PortifolioBg.jpg" />
     <Content Include="packages.config" />
     <Content Include="Comp229_Assign01.Master" />
