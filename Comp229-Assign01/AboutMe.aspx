@@ -10,62 +10,67 @@
         <div class="bio-section col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
             <p>
                 I am a Software Engineer with 16 years of experience and passionate about engineering and building quality software.
-                I have just moved to Canada with my family searching for new a challenge and so I decided to study gaming programming in Centennial College.
-                I also love travaling, playing soccer, voleyball and videogames and most of all, I love having a lot of quality time with my wife and son.
+                In all my years of experience I used a lot of diferent languages such as C, C++, Perl, Visual Basic, C# and Java.
+                I also worked with a lot of Java different frameworks as Maven, Spring, Hibernate, JSF, Tapestry and servers like JBoss, Tomcat and Jetty.
+                Furthermore, I also have knowledge of different database systems like Oracle, SQL Server, MySQL and MongoDB.
             </p>
         </div>
-        <div class="formerPosition">
-            <div class="formerPositionHeader">
-                <div class="formerPositionName">
-                    Position 1 Name
-                </div>
-                <div class="formerPositionDate">
-                    Jan-2000 to Present
-                </div>
+    </div>
+    <div class="formerPosition">
+        <div class="formerPositionHeader">
+            <div class="formerPositionName">
+                B3 - Senior Architecture Analyst
             </div>
-            <div class="formerPositionResponsabilities">
-                <ul>
-                    <li>Responsability 1</li>
-                    <li>Responsability 2</li>
-                    <li>Responsability 3</li>
-                    <li>Responsability 4</li>
-                </ul>
+            <div class="formerPositionDate">
+                Sep 2013 - Jul 2017
             </div>
         </div>
-        <div class="formerPosition">
-            <div class="formerPositionHeader">
-                <div class="formerPositionName">
-                    Position 2 Name
-                </div>
-                <div class="formerPositionDate">
-                    Jan-1999 to Jan-2000
-                </div>
+        <div class="formerPositionResponsabilities">
+            <ul>
+                <li>Analyze and provide integration solution for the IPN Program</li>
+                <li>System performance analysis and JVM optimization</li>
+                <li>Design, development and deployment of SINCAD (Unified Stock Registration System).</li>
+                <li>Member of IPN architecture committee.</li>
+                <li>Design, development and deployment of a data replication system from Oracle to SQL Server and ADABAS.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="formerPosition">
+        <div class="formerPositionHeader">
+            <div class="formerPositionName">
+                7COMm - Senior System Architect
             </div>
-            <div class="formerPositionResponsabilities">
-                <ul>
-                    <li>Responsability 1</li>
-                    <li>Responsability 2</li>
-                </ul>
+            <div class="formerPositionDate">
+                Jan 2012 - Sep 2013
             </div>
         </div>
-        <div class="formerPosition">
-            <div class="formerPositionHeader">
-                <div class="formerPositionName">
-                    Position 4 Name
-                </div>
-                <div class="formerPositionDate">
-                    Jan-1998 to Jan-1999
-                </div>
+        <div class="formerPositionResponsabilities">
+            <ul>
+                <li>Consultant system architect at B3.</li>
+                <li>Design, development and deployment of SINCAD rules engine.</li>
+                <li>Architectural design of SINCAD batch processor.</li>
+                <li>Architectural design of IR1 (Webservice integration middleware between SINCAD and all other B3 systems).</li>
+            </ul>
+        </div>
+    </div>
+    <div class="formerPosition">
+        <div class="formerPositionHeader">
+            <div class="formerPositionName">
+                BrandsClub - IT Manager
             </div>
-            <div class="formerPositionResponsabilities">
-                <ul>
-                    <li>Responsability 1</li>
-                    <li>Responsability 2</li>
-                    <li>Responsability 3</li>
-                    <li>Responsability 4</li>
-                    <li>Responsability 5</li>
-                </ul>
+            <div class="formerPositionDate">
+                Nov 2008 - Dec 2012
             </div>
+        </div>
+        <div class="formerPositionResponsabilities">
+            <ul>
+                <li>Responsible for bringing a German private sales software and adapt Brazilian marke needs.</li>
+                <li>Implementation of payment gateway and ERP integration.</li>
+                <li>Responsible for hiring and managing the development team.</li>
+                <li>PHP reporting tool design, development and deployment</li>
+                <li>Managed the team that developed BCBlue website (low cost branch of Brandsclub).</li>
+                <li>Development and depllymet of BCUSA (United States of America branch of Brandsclub).</li>
+            </ul>
         </div>
     </div>
 </asp:Content>

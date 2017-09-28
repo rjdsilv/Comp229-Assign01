@@ -6,6 +6,7 @@
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 30px;
+    overflow: auto;
 }
 
 /* Personal and bio section properties */
@@ -53,10 +54,10 @@
     }
 }
 
-@media (max-width: 749px) {
+@media (max-width: 760px) {
     .bio-section {
         font-size: 16px;
-        width: 75%;
+        width: 74%;
     }
 
     .personal-photo {
@@ -75,4 +76,40 @@
         font-size: 13px;
         width: 70%;
     }
+}
+
+.formerPosition {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 0;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+.formerPositionHeader {
+    background-color: rgba(255, 255, 255, 0.80);
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.formerPositionName,
+.formerPositionDate {
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}
+
+.formerPositionName {
+    text-align: left;
+}
+
+.formerPositionDate {
+    text-align: right;
 }
