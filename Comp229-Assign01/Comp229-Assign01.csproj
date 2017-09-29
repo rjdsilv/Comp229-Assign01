@@ -66,10 +66,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutMe.aspx" />
+    <Content Include="ContactMe.aspx" />
     <Content Include="css\AboutMe.css" />
+    <Content Include="css\ContactMe.css" />
     <Content Include="css\HomePage.css" />
     <Content Include="css\Master.css" />
     <Content Include="HomePage.aspx" />
+    <Content Include="images\GitHub.png" />
+    <Content Include="images\Linkedin.png" />
     <Content Include="images\Logo.png" />
     <Content Include="images\MySelf.png" />
     <Content Include="images\PortifolioBg.jpg" />
@@ -100,6 +104,13 @@
     </Compile>
     <Compile Include="Comp229_Assign01.Master.designer.cs">
       <DependentUpon>Comp229_Assign01.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ContactMe.aspx.cs">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactMe.aspx.designer.cs">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

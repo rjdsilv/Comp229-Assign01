@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="css/AboutMe.css" />
 </asp:Content>
 <asp:Content ID="aboutMeBody" ContentPlaceHolderID="bodyContent" runat="server">
+    <%-- Div containing my personal info as personal photo and bio section. --%>
     <div class="personal-info">
         <div class="personal-photo col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
             <img alt="Personal Photo" src="images/MySelf.png" />
@@ -16,6 +17,8 @@
             </p>
         </div>
     </div>
+
+    <%-- Former position number 1 --%>
     <div class="formerPosition">
         <div class="formerPositionHeader">
             <div class="formerPositionName">
@@ -35,6 +38,8 @@
             </ul>
         </div>
     </div>
+
+    <%-- Former position number 2 --%>
     <div class="formerPosition">
         <div class="formerPositionHeader">
             <div class="formerPositionName">
@@ -53,6 +58,8 @@
             </ul>
         </div>
     </div>
+
+    <%-- Former position number 3 --%>
     <div class="formerPosition">
         <div class="formerPositionHeader">
             <div class="formerPositionName">

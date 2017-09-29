@@ -1,0 +1,66 @@
+﻿@import url("Master.css");
+
+/* Setting common contact properties. */
+.contact {
+    background-color: rgba(0, 0, 0, 0.90);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+/* Setting header and body properties. */
+.contact-header,
+.contact-body {
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 5px;
+    color: #000;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 10px 0 5px 0;
+}
+
+.contact-body {
+    padding: 10px 0 10px 20px;
+    overflow: auto;
+}
+
+.contact-social {
+    width: 31%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 12px 0;
+}
+
+.contact-social img {
+    width: 75px;
+    height: 75px;
+}
+
+/* Making social images responsive */
+@media screen and (max-width: 995px) {
+    .contact-social img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact-social img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-social img {
+        width: 35px;
+        height: 35px;
+    }
+}

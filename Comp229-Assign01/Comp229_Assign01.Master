@@ -15,6 +15,7 @@
 <body>
     <form id="frmPorifolioSite" runat="server">
         <div class="container">
+            <%-- The common application header. --%>
             <div class="jumbotron">
                 <div class="my-logo">
                     <a href="HomePage.aspx"><img alt="Me.Logo" src="images/Logo.png" /></a>
