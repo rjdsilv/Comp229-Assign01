@@ -11,8 +11,8 @@
         <div class="bio-section col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
             <p>
                 I am a Software Engineer with 16 years of experience and passionate about engineering and building quality software.
-                In all my years of experience I used a lot of diferent languages such as C, C++, Perl, Visual Basic, C# and Java.
-                I also worked with a lot of Java different frameworks as Maven, Spring, Hibernate, JSF, Tapestry and servers like JBoss, Tomcat and Jetty.
+                In all my years of experience I worked with a lot of diferent languages such as C, C++, Perl, Visual Basic, C# and Java.
+                I also worked with many different Java frameworks such as Maven, Spring, Hibernate, JSF, Tapestry and servers like JBoss, Tomcat and Jetty.
                 Furthermore, I also have knowledge of different database systems like Oracle, SQL Server, MySQL and MongoDB.
             </p>
         </div>
