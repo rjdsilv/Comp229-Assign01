@@ -46,12 +46,12 @@
             <p>Contact Information</p>
         </div>
         <div class="contact-user-info-body">
+            <label for="emailText">Email</label>
+            <asp:TextBox ID="emailText" CssClass="form-control" runat="server" placeholder="myemail@email.com" TextMode="Email" />
             <label for="firstNameText">First Name</label>
             <asp:TextBox ID="firstNameText" CssClass="form-control" runat="server" placeholder="First Name" />
             <label for="lastNameText">Last Name</label>
             <asp:TextBox ID="lastNameText" CssClass="form-control" runat="server" placeholder="Last Name" />
-            <label for="emailText">Email</label>
-            <asp:TextBox ID="emailText" CssClass="form-control" runat="server" placeholder="myemail@email.com" TextMode="Email" />
             <label for="homePhoneText">Home Phone</label>
             <asp:TextBox ID="homePhoneText" CssClass="form-control" runat="server" placeholder="(NNN) NNN-NNNN" TextMode="Phone" />
             <label for="mobilePhoneText">Mobile Phone</label>

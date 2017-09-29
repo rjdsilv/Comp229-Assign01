@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Comp229_Assign01
 {
     public partial class ContactMe : System.Web.UI.Page
     {
+        private LocalDatabase database = new LocalDatabase();
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            EnableViewState = false;
         }
 
         /**
@@ -19,13 +18,25 @@ namespace Comp229_Assign01
          */
         protected void sendButton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("First Name  : " + firstNameText.Text);
-            Console.WriteLine("Last Name   : " + lastNameText.Text);
-            Console.WriteLine("Email       : " + emailText.Text);
-            Console.WriteLine("Home Phone  : " + homePhoneText.Text);
-            Console.WriteLine("Mobile Phone: " + mobilePhoneText.Text);
-            Console.WriteLine("Message     : " + messageText.Text);
+            UserContactInformation userContactInfo = new UserContactInformation();
 
+            userContactInfo.Email = emailText.Text;
+            userContactInfo.FirstName = firstNameText.Text;
+            userContactInfo.LastName = lastNameText.Text;
+            userContactInfo.HomePhone = homePhoneText.Text;
+            userContactInfo.MobilePhone = mobilePhoneText.Text;
+            userContactInfo.Message = messageText.Text;
+
+            database.WriteDb(userContactInfo.Email, userContactInfo);
+
+            emailText.Text = "";
+            firstNameText.Text = "";
+            lastNameText.Text = "";
+            homePhoneText.Text = "";
+            mobilePhoneText.Text = "";
+            messageText.Text = "";
+
+            Response.Write("<script>alert('Contact information recorded sucessfully!')</script>");
         }
     }
 }

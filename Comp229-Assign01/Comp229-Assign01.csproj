@@ -98,6 +98,8 @@
     <Compile Include="AboutMe.aspx.designer.cs">
       <DependentUpon>AboutMe.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LocalDatabase.cs" />
+    <Compile Include="UserContactInformation.cs" />
     <Compile Include="Comp229_Assign01.Master.cs">
       <DependentUpon>Comp229_Assign01.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -126,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="localdb\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

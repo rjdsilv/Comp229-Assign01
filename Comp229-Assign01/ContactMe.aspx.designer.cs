@@ -13,6 +13,15 @@ namespace Comp229_Assign01 {
     public partial class ContactMe {
         
         /// <summary>
+        /// emailText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox emailText;
+        
+        /// <summary>
         /// firstNameText control.
         /// </summary>
         /// <remarks>
@@ -29,15 +38,6 @@ namespace Comp229_Assign01 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox lastNameText;
-        
-        /// <summary>
-        /// emailText control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailText;
         
         /// <summary>
         /// homePhoneText control.
