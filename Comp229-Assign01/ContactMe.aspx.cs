@@ -13,5 +13,19 @@ namespace Comp229_Assign01
         {
 
         }
+
+        /**
+         * Treating the button click event.
+         */
+        protected void sendButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("First Name  : " + firstNameText.Text);
+            Console.WriteLine("Last Name   : " + lastNameText.Text);
+            Console.WriteLine("Email       : " + emailText.Text);
+            Console.WriteLine("Home Phone  : " + homePhoneText.Text);
+            Console.WriteLine("Mobile Phone: " + mobilePhoneText.Text);
+            Console.WriteLine("Message     : " + messageText.Text);
+
+        }
     }
 }
